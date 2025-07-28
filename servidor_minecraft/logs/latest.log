@@ -606,3 +606,10 @@
 [28Jul2025 18:53:14.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex was slain by Monstrous Nightmare
 [28Jul2025 18:56:23.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was blown up by Light Fury
 [28Jul2025 18:57:23.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito was blown up by Night Fury
+[28Jul2025 19:13:02.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Kreeex> banca
+[28Jul2025 19:13:53.235] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex has made the advancement [Voluntary Exile]
+[28Jul2025 19:14:17.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Kreeex> aura
+[28Jul2025 19:14:21.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Huevito> laura
+[28Jul2025 19:14:24.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Night Fury (vehicle of Kreeex) moved wrongly! 0.2870633236084359
+[28Jul2025 19:14:44.784] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Not Today, Thank You]
+[28Jul2025 19:14:46.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Voluntary Exile]

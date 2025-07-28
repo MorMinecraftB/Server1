@@ -6562,3 +6562,14 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [28Jul2025 18:59:51.943] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [28Jul2025 19:04:51.934] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [28Jul2025 19:04:51.940] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 19:09:51.933] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 19:09:51.945] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 19:13:02.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Kreeex> banca
+[28Jul2025 19:13:53.235] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex has made the advancement [Voluntary Exile]
+[28Jul2025 19:14:17.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Kreeex> aura
+[28Jul2025 19:14:21.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Huevito> laura
+[28Jul2025 19:14:24.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Night Fury (vehicle of Kreeex) moved wrongly! 0.2870633236084359
+[28Jul2025 19:14:44.784] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Not Today, Thank You]
+[28Jul2025 19:14:46.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Voluntary Exile]
+[28Jul2025 19:14:51.942] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 19:14:51.948] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
