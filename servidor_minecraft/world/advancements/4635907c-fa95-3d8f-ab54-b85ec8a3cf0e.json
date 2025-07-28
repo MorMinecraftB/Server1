@@ -19,7 +19,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-07-25 18:25:00 +0000"
+      "minecraft:cow": "2025-07-25 18:25:00 +0000",
+      "minecraft:rabbit": "2025-07-28 20:21:38 +0000"
     },
     "done": false
   },
@@ -32,6 +33,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-07-28 19:14:46 +0000",
+      "minecraft:skeleton": "2025-07-28 20:55:37 +0000",
       "minecraft:zombified_piglin": "2025-07-28 03:03:08 +0000",
       "minecraft:zombie": "2025-07-28 02:05:43 +0000",
       "minecraft:drowned": "2025-07-25 19:11:51 +0000"
@@ -122,6 +124,7 @@
       "minecraft:jungle": "2025-07-28 02:46:05 +0000",
       "minecraft:windswept_savanna": "2025-07-28 02:20:54 +0000",
       "minecraft:warm_ocean": "2025-07-25 17:59:36 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-07-28 20:40:32 +0000",
       "minecraft:old_growth_birch_forest": "2025-07-28 02:48:20 +0000",
       "minecraft:savanna": "2025-07-25 19:06:38 +0000",
       "minecraft:plains": "2025-07-25 18:08:30 +0000"
