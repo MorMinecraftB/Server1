@@ -6401,3 +6401,14 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [28Jul2025 20:59:42.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas has made the advancement [Diamonds!]
 [28Jul2025 20:59:45.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas tried to swim in lava to escape Huevito
 [28Jul2025 20:59:51.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cirasas: Teleported Cirasas to Huevito]
+[28Jul2025 21:01:01.117] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas has made the advancement [Purple... Interesting]
+[28Jul2025 21:01:53.581] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 21:01:53.587] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 21:06:53.577] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 21:06:53.584] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 21:07:02.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito was slain by Zombie
+[28Jul2025 21:08:38.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas tried to swim in lava
+[28Jul2025 21:11:53.569] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 21:11:53.575] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 21:16:53.570] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 21:16:53.577] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

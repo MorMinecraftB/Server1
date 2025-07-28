@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "isleofberk:belzium": {
+    "criteria": {
+      "requirement": "2025-07-28 21:01:01 +0000"
+    },
+    "done": true
+  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2025-07-27 02:38:20 +0000",
@@ -68,7 +74,8 @@
       "baked_potato": "2025-07-26 16:29:05 +0000",
       "porkchop": "2025-07-26 17:30:26 +0000",
       "apple": "2025-07-25 17:58:06 +0000",
-      "bread": "2025-07-25 16:26:27 +0000"
+      "bread": "2025-07-25 16:26:27 +0000",
+      "carrot": "2025-07-28 21:07:57 +0000"
     },
     "done": false
   },
@@ -209,6 +216,12 @@
   "archipelagoadditions:dragon_hunter/dragonhunter": {
     "criteria": {
       "stinger": "2025-07-25 17:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-07-28 20:59:42 +0000"
     },
     "done": true
   },
