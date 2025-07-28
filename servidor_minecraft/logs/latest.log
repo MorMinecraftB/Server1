@@ -571,3 +571,11 @@
 [28Jul2025 17:56:30.181] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
 [28Jul2025 17:56:30.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
 [28Jul2025 18:02:48.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas tried to swim in lava
+[28Jul2025 18:10:02.934] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@54a2fbc0
+[28Jul2025 18:10:02.944] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:56179] logged in with entity id 3491 at (-1932.0487469267441, 64.0, -1105.5429841948542)
+[28Jul2025 18:10:02.952] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg joined the game
+[28Jul2025 18:10:31.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made Cirasas a server operator
+[28Jul2025 18:10:43.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cirasas: Set own game mode to Creative Mode]
+[28Jul2025 18:10:52.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cirasas: Set own game mode to Survival Mode]
+[28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
