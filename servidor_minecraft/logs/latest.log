@@ -580,3 +580,8 @@
 [28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
 [28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
 [28Jul2025 18:31:46.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was impaled on a stalagmite
+[28Jul2025 18:38:56.338] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@183aa4c1
+[28Jul2025 18:38:56.350] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kreeex[/127.130.50.75:58363] logged in with entity id 8264 at (-2993.9749944439604, 93.0, -2474.800337709001)
+[28Jul2025 18:38:56.356] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex joined the game
+[28Jul2025 18:40:22.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex drowned
+[28Jul2025 18:40:29.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Cirasas> BACK RAPIDO
