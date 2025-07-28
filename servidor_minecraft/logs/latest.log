@@ -604,3 +604,5 @@
 [28Jul2025 18:50:45.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Night Fury (vehicle of Kreeex) moved wrongly! 0.713611171104958
 [28Jul2025 18:52:58.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas has made the advancement [Big Data]
 [28Jul2025 18:53:14.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex was slain by Monstrous Nightmare
+[28Jul2025 18:56:23.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was blown up by Light Fury
+[28Jul2025 18:57:23.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito was blown up by Night Fury
