@@ -6301,3 +6301,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
 [28Jul2025 18:19:51.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [28Jul2025 18:19:51.919] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 18:24:51.909] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 18:24:51.916] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 18:29:51.907] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jul2025 18:29:51.913] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jul2025 18:31:46.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was impaled on a stalagmite

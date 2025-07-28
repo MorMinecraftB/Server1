@@ -579,3 +579,4 @@
 [28Jul2025 18:10:52.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cirasas: Set own game mode to Survival Mode]
 [28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
 [28Jul2025 18:17:58.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
+[28Jul2025 18:31:46.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was impaled on a stalagmite
