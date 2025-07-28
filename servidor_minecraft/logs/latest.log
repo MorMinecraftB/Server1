@@ -594,3 +594,8 @@
 [28Jul2025 21:01:01.117] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas has made the advancement [Purple... Interesting]
 [28Jul2025 21:07:02.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito was slain by Zombie
 [28Jul2025 21:08:38.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas tried to swim in lava
+[28Jul2025 21:25:42.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Morangg> se funde con lava
+[28Jul2025 21:25:57.476] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Morangg> y se cocina con fuego la comida
+[28Jul2025 21:27:26.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Huevito moved too quickly! -8.844691650730056,-2.8291870918577047,4.338033299440667
+[28Jul2025 21:27:26.828] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2228ms or 44 ticks behind
+[28Jul2025 21:27:35.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas tried to swim in lava
