@@ -1,577 +1,573 @@
-[28Jul2025 16:01:35.815] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-[28Jul2025 16:01:35.818] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.15 by Ubuntu
-[28Jul2025 16:01:35.962] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[28Jul2025 16:01:36.348] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
-[28Jul2025 16:01:36.350] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[28Jul2025 16:01:36.355] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[28Jul2025 16:01:36.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[28Jul2025 16:01:36.533] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[28Jul2025 16:01:38.267] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28Jul2025 16:01:38.320] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[28Jul2025 16:01:38.453] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 53 options available, 0 override(s) found
-[28Jul2025 16:01:46.852] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
-[28Jul2025 16:01:46.853] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
-[28Jul2025 16:01:47.090] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
-[28Jul2025 16:01:47.092] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
-[28Jul2025 16:01:47.093] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
-[28Jul2025 16:01:47.194] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.7.
-[28Jul2025 16:01:47.248] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
-[28Jul2025 16:01:47.822] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
-[28Jul2025 16:01:47.856] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
-[28Jul2025 16:01:47.867] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
-[28Jul2025 16:01:47.869] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
-[28Jul2025 16:01:47.876] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
-[28Jul2025 16:01:47.877] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
-[28Jul2025 16:01:47.888] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
-[28Jul2025 16:01:47.905] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
-[28Jul2025 16:01:47.915] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
-[28Jul2025 16:01:47.922] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
-[28Jul2025 16:01:47.928] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
-[28Jul2025 16:01:47.939] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
-[28Jul2025 16:01:47.951] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigDungeonModule
-[28Jul2025 16:01:47.965] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
-[28Jul2025 16:01:47.968] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
-[28Jul2025 16:01:47.970] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
-[28Jul2025 16:01:47.974] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
-[28Jul2025 16:01:47.984] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
-[28Jul2025 16:01:47.985] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
-[28Jul2025 16:01:47.993] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
-[28Jul2025 16:01:47.998] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
-[28Jul2025 16:01:48.002] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
-[28Jul2025 16:01:48.016] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
-[28Jul2025 16:01:48.020] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
-[28Jul2025 16:01:48.025] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
-[28Jul2025 16:01:48.027] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoteBlockMobSoundsModule
-[28Jul2025 16:01:48.034] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
-[28Jul2025 16:01:48.038] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
-[28Jul2025 16:01:48.045] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
-[28Jul2025 16:01:48.049] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
-[28Jul2025 16:01:48.051] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
-[28Jul2025 16:01:48.064] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
-[28Jul2025 16:01:48.066] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
-[28Jul2025 16:01:48.074] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
-[28Jul2025 16:01:48.075] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
-[28Jul2025 16:01:48.079] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
-[28Jul2025 16:01:48.082] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
-[28Jul2025 16:01:48.084] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
-[28Jul2025 16:01:48.087] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
-[28Jul2025 16:01:48.091] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
-[28Jul2025 16:01:48.094] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
-[28Jul2025 16:01:48.097] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
-[28Jul2025 16:01:48.099] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
-[28Jul2025 16:01:48.108] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
-[28Jul2025 16:01:48.116] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
-[28Jul2025 16:01:48.133] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
-[28Jul2025 16:01:48.137] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
-[28Jul2025 16:01:48.138] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
-[28Jul2025 16:01:48.145] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
-[28Jul2025 16:01:48.157] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.CameraModule
-[28Jul2025 16:01:48.160] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
-[28Jul2025 16:01:48.161] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
-[28Jul2025 16:01:48.170] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
-[28Jul2025 16:01:48.172] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
-[28Jul2025 16:01:48.180] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
-[28Jul2025 16:01:48.182] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
-[28Jul2025 16:01:48.198] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
-[28Jul2025 16:01:48.214] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
-[28Jul2025 16:01:48.215] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
-[28Jul2025 16:01:48.217] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
-[28Jul2025 16:01:48.224] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FrogsModule
-[28Jul2025 16:01:48.231] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
-[28Jul2025 16:01:48.232] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
-[28Jul2025 16:01:48.241] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
-[28Jul2025 16:01:48.248] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
-[28Jul2025 16:01:48.249] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
-[28Jul2025 16:01:48.262] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
-[28Jul2025 16:01:48.263] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
-[28Jul2025 16:01:48.264] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
-[28Jul2025 16:01:48.282] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
-[28Jul2025 16:01:48.283] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ChestsInBoatsModule
-[28Jul2025 16:01:48.293] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ZombieVillagersOnNormalModule
-[28Jul2025 16:01:48.294] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
-[28Jul2025 16:01:48.295] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
-[28Jul2025 16:01:48.303] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
-[28Jul2025 16:01:48.305] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
-[28Jul2025 16:01:48.306] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
-[28Jul2025 16:01:48.306] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
-[28Jul2025 16:01:48.311] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
-[28Jul2025 16:01:48.317] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
-[28Jul2025 16:01:48.320] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
-[28Jul2025 16:01:48.321] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
-[28Jul2025 16:01:48.326] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
-[28Jul2025 16:01:48.327] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
-[28Jul2025 16:01:48.328] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
-[28Jul2025 16:01:48.333] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
-[28Jul2025 16:01:48.337] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybind
-[28Jul2025 16:01:48.337] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
-[28Jul2025 16:01:48.338] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
-[28Jul2025 16:01:48.345] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
-[28Jul2025 16:01:48.354] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
-[28Jul2025 16:01:48.357] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
-[28Jul2025 16:01:48.361] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
-[28Jul2025 16:01:48.376] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
-[28Jul2025 16:01:48.393] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
-[28Jul2025 16:01:48.400] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
-[28Jul2025 16:01:48.402] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
-[28Jul2025 16:01:48.403] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
-[28Jul2025 16:01:48.409] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
-[28Jul2025 16:01:48.411] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
-[28Jul2025 16:01:48.414] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
-[28Jul2025 16:01:48.419] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
-[28Jul2025 16:01:48.435] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.OrientalPaletteModule
-[28Jul2025 16:01:48.438] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
-[28Jul2025 16:01:48.443] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
-[28Jul2025 16:01:48.447] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
-[28Jul2025 16:01:48.453] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
-[28Jul2025 16:01:48.456] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
-[28Jul2025 16:01:48.462] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
-[28Jul2025 16:01:48.469] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
-[28Jul2025 16:01:48.479] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
-[28Jul2025 16:01:48.481] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
-[28Jul2025 16:01:48.493] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
-[28Jul2025 16:01:48.508] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
-[28Jul2025 16:01:48.510] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
-[28Jul2025 16:01:48.511] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
-[28Jul2025 16:01:48.515] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
-[28Jul2025 16:01:48.525] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
-[28Jul2025 16:01:48.526] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
-[28Jul2025 16:01:48.530] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
-[28Jul2025 16:01:48.533] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
-[28Jul2025 16:01:48.536] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
-[28Jul2025 16:01:48.541] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
-[28Jul2025 16:01:48.542] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
-[28Jul2025 16:01:48.548] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
-[28Jul2025 16:01:48.552] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
-[28Jul2025 16:01:48.563] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
-[28Jul2025 16:01:48.564] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
-[28Jul2025 16:01:48.565] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
-[28Jul2025 16:01:48.567] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
-[28Jul2025 16:01:48.573] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
-[28Jul2025 16:01:48.589] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
-[28Jul2025 16:01:48.593] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
-[28Jul2025 16:01:48.599] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
-[28Jul2025 16:01:48.607] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
-[28Jul2025 16:01:48.613] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
-[28Jul2025 16:01:48.622] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
-[28Jul2025 16:01:48.631] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
-[28Jul2025 16:01:53.858] [main/INFO] [quark/]: Dispatching Module Step REGISTER
-[28Jul2025 16:01:55.202] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
-[28Jul2025 16:01:55.800] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
-[28Jul2025 16:01:56.477] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[28Jul2025 16:01:56.479] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[28Jul2025 16:01:56.973] [main/INFO] [quark/]: Loading Module Redstone Randomizer
-[28Jul2025 16:01:56.976] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
-[28Jul2025 16:01:56.980] [main/INFO] [quark/]: Loading Module Obsidian Plate
-[28Jul2025 16:01:56.983] [main/INFO] [quark/]: Loading Module Metal Buttons
-[28Jul2025 16:01:56.983] [main/INFO] [quark/]: Loading Module Jukebox Automation
-[28Jul2025 16:01:56.984] [main/INFO] [quark/]: Loading Module Iron Rod
-[28Jul2025 16:01:56.985] [main/INFO] [quark/]: Loading Module Gravisand
-[28Jul2025 16:01:56.985] [main/INFO] [quark/]: Loading Module Feeding Trough
-[28Jul2025 16:01:56.989] [main/INFO] [quark/]: Loading Module Ender Watcher
-[28Jul2025 16:01:56.989] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
-[28Jul2025 16:01:56.990] [main/INFO] [quark/]: Loading Module Chute
-[28Jul2025 16:01:56.990] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
-[28Jul2025 16:01:56.990] [main/INFO] [quark/]: Loading Module Wooden Posts
-[28Jul2025 16:01:56.990] [main/INFO] [quark/]: Loading Module Vertical Slabs
-[28Jul2025 16:01:56.991] [main/INFO] [quark/]: Loading Module Vertical Planks
-[28Jul2025 16:01:56.991] [main/INFO] [quark/]: Loading Module Variant Ladders
-[28Jul2025 16:01:56.991] [main/INFO] [quark/]: Loading Module Variant Furnaces
-[28Jul2025 16:01:56.995] [main/INFO] [quark/]: Loading Module Variant Chests
-[28Jul2025 16:01:56.998] [main/INFO] [quark/]: Loading Module Variant Bookshelves
-[28Jul2025 16:01:56.999] [main/INFO] [quark/]: Loading Module Thatch
-[28Jul2025 16:01:56.999] [main/INFO] [quark/]: Loading Module Sturdy Stone
-[28Jul2025 16:01:57.000] [main/INFO] [quark/]: Loading Module Stools
-[28Jul2025 16:01:57.003] [main/INFO] [quark/]: Loading Module Soul Sandstone
-[28Jul2025 16:01:57.004] [main/INFO] [quark/]: Loading Module Shingles
-[28Jul2025 16:01:57.005] [main/INFO] [quark/]: Loading Module Shear Vines
-[28Jul2025 16:01:57.006] [main/INFO] [quark/]: Loading Module Rope
-[28Jul2025 16:01:57.008] [main/INFO] [quark/]: Loading Module Oriental Palette
-[28Jul2025 16:01:57.008] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
-[28Jul2025 16:01:57.008] [main/INFO] [quark/]: Loading Module More Stone Variants
-[28Jul2025 16:01:57.008] [main/INFO] [quark/]: Loading Module More Potted Plants
-[28Jul2025 16:01:57.009] [main/INFO] [quark/]: Loading Module More Brick Types
-[28Jul2025 16:01:57.010] [main/INFO] [quark/]: Loading Module Midori
-[28Jul2025 16:01:57.010] [main/INFO] [quark/]: Loading Module Leaf Carpet
-[28Jul2025 16:01:57.011] [main/INFO] [quark/]: Loading Module Industrial Palette
-[28Jul2025 16:01:57.011] [main/INFO] [quark/]: Loading Module Hedges
-[28Jul2025 16:01:57.012] [main/INFO] [quark/]: Loading Module Grate
-[28Jul2025 16:01:57.012] [main/INFO] [quark/]: Loading Module Gold Bars
-[28Jul2025 16:01:57.012] [main/INFO] [quark/]: Loading Module Glass Item Frame
-[28Jul2025 16:01:57.014] [main/INFO] [quark/]: Loading Module Framed Glass
-[28Jul2025 16:01:57.014] [main/INFO] [quark/]: Loading Module Duskbound Blocks
-[28Jul2025 16:01:57.014] [main/INFO] [quark/]: Loading Module Compressed Blocks
-[28Jul2025 16:01:57.015] [main/INFO] [quark/]: Loading Module Celebratory Lamps
-[28Jul2025 16:01:57.015] [main/INFO] [quark/]: Loading Module Quick Armor Swapping
-[28Jul2025 16:01:57.015] [main/INFO] [quark/]: Loading Module Item Sharing
-[28Jul2025 16:01:57.016] [main/INFO] [quark/]: Loading Module Inventory Sorting
-[28Jul2025 16:01:57.016] [main/INFO] [quark/]: Loading Module Hotbar Changer
-[28Jul2025 16:01:57.016] [main/INFO] [quark/]: Loading Module Expanded Item Interactions
-[28Jul2025 16:01:57.016] [main/INFO] [quark/]: Loading Module Easy Transfering
-[28Jul2025 16:01:57.016] [main/INFO] [quark/]: Loading Module Chests In Boats
-[28Jul2025 16:01:57.018] [main/INFO] [quark/]: Loading Module Trowel
-[28Jul2025 16:01:57.019] [main/INFO] [quark/]: Loading Module Slime In A Bucket
-[28Jul2025 16:01:57.020] [main/INFO] [quark/]: Loading Module Seed Pouch
-[28Jul2025 16:01:57.024] [main/INFO] [quark/]: Loading Module Pickarang
-[28Jul2025 16:01:57.024] [main/INFO] [quark/]: Loading Module Pathfinder Maps
-[28Jul2025 16:01:57.025] [main/INFO] [quark/]: Loading Module Parrot Eggs
-[28Jul2025 16:01:57.028] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
-[28Jul2025 16:01:57.029] [main/INFO] [quark/]: Loading Module Color Runes
-[28Jul2025 16:01:57.032] [main/INFO] [quark/]: Loading Module Camera
-[28Jul2025 16:01:57.032] [main/INFO] [quark/]: Loading Module Bundle Recipe
-[28Jul2025 16:01:57.032] [main/INFO] [quark/]: Loading Module Bottled Cloud
-[28Jul2025 16:01:57.034] [main/INFO] [quark/]: Loading Module Beacon Redirection
-[28Jul2025 16:01:57.034] [main/INFO] [quark/]: Loading Module Ancient Tomes
-[28Jul2025 16:01:57.045] [main/INFO] [quark/]: Loading Module Ambient Discs
-[28Jul2025 16:01:57.049] [main/INFO] [quark/]: Loading Module Abacus
-[28Jul2025 16:01:57.050] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
-[28Jul2025 16:01:57.052] [main/INFO] [quark/]: Loading Module Vexes Die With Their Masters
-[28Jul2025 16:01:57.053] [main/INFO] [quark/]: Loading Module Utility Recipes
-[28Jul2025 16:01:57.056] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
-[28Jul2025 16:01:57.057] [main/INFO] [quark/]: Loading Module Simple Harvest
-[28Jul2025 16:01:57.059] [main/INFO] [quark/]: Loading Module Sign Editing
-[28Jul2025 16:01:57.061] [main/INFO] [quark/]: Loading Module Replace Scaffolding
-[28Jul2025 16:01:57.064] [main/INFO] [quark/]: Loading Module Reacharound Placing
-[28Jul2025 16:01:57.065] [main/INFO] [quark/]: Loading Module Poison Potato Usage
-[28Jul2025 16:01:57.066] [main/INFO] [quark/]: Loading Module Pig Litters
-[28Jul2025 16:01:57.070] [main/INFO] [quark/]: Loading Module Pat The Dogs
-[28Jul2025 16:01:57.076] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
-[28Jul2025 16:01:57.078] [main/INFO] [quark/]: Loading Module More Banner Layers
-[28Jul2025 16:01:57.078] [main/INFO] [quark/]: Loading Module Lock Rotation
-[28Jul2025 16:01:57.079] [main/INFO] [quark/]: Loading Module Hoe Harvesting
-[28Jul2025 16:01:57.082] [main/INFO] [quark/]: Loading Module Grab Chickens
-[28Jul2025 16:01:57.085] [main/INFO] [quark/]: Loading Module Glass Shard
-[28Jul2025 16:01:57.086] [main/INFO] [quark/]: Loading Module Enhanced Ladders
-[28Jul2025 16:01:57.087] [main/INFO] [quark/]: Loading Module Emotes
-[28Jul2025 16:01:57.089] [main/INFO] [quark/]: Loading Module Dragon Scales
-[28Jul2025 16:01:57.090] [main/INFO] [quark/]: Loading Module Double Door Opening
-[28Jul2025 16:01:57.090] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
-[28Jul2025 16:01:57.091] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
-[28Jul2025 16:01:57.093] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
-[28Jul2025 16:01:57.095] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
-[28Jul2025 16:01:57.095] [main/INFO] [quark/]: Loading Module Armed Armor Stands
-[28Jul2025 16:01:57.099] [main/INFO] [quark/]: Loading Module Skull Pikes
-[28Jul2025 16:01:57.100] [main/INFO] [quark/]: Loading Module Spiral Spires
-[28Jul2025 16:01:57.102] [main/INFO] [quark/]: Loading Module Permafrost
-[28Jul2025 16:01:57.106] [main/INFO] [quark/]: Loading Module No More Lava Pockets
-[28Jul2025 16:01:57.106] [main/INFO] [quark/]: Loading Module New Stone Types
-[28Jul2025 16:01:57.107] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
-[28Jul2025 16:01:57.107] [main/INFO] [quark/]: Loading Module Monster Box
-[28Jul2025 16:01:57.108] [main/INFO] [quark/]: Loading Module Glimmering Weald
-[28Jul2025 16:01:57.108] [main/INFO] [quark/]: Loading Module Fairy Rings
-[28Jul2025 16:01:57.108] [main/INFO] [quark/]: Loading Module Corundum
-[28Jul2025 16:01:57.108] [main/INFO] [quark/]: Loading Module Chorus Vegetation
-[28Jul2025 16:01:57.109] [main/INFO] [quark/]: Loading Module Blossom Trees
-[28Jul2025 16:01:57.109] [main/INFO] [quark/]: Loading Module Big Stone Clusters
-[28Jul2025 16:01:57.110] [main/INFO] [quark/]: Loading Module Big Dungeon
-[28Jul2025 16:01:57.113] [main/INFO] [quark/]: Loading Module Azalea Wood
-[28Jul2025 16:01:57.113] [main/INFO] [quark/]: Loading Module Wraith
-[28Jul2025 16:01:57.114] [main/INFO] [quark/]: Loading Module Toretoise
-[28Jul2025 16:01:57.114] [main/INFO] [quark/]: Loading Module Stonelings
-[28Jul2025 16:01:57.115] [main/INFO] [quark/]: Loading Module Shiba
-[28Jul2025 16:01:57.115] [main/INFO] [quark/]: Loading Module Frogs
-[28Jul2025 16:01:57.116] [main/INFO] [quark/]: Loading Module Foxhound
-[28Jul2025 16:01:57.123] [main/INFO] [quark/]: Loading Module Forgotten
-[28Jul2025 16:01:57.124] [main/INFO] [quark/]: Loading Module Crabs
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Variant Animal Textures
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Uses For Curses
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Usage Ticker
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Soul Candles
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Microcrafting Helper
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Improved Tooltips
-[28Jul2025 16:01:57.125] [main/INFO] [quark/]: Loading Module Greener Grass
-[28Jul2025 16:01:57.126] [main/INFO] [quark/]: Loading Module Chest Searching
-[28Jul2025 16:01:57.130] [main/INFO] [quark/]: Loading Module Back Button Keybind
-[28Jul2025 16:01:57.130] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
-[28Jul2025 16:01:57.130] [main/INFO] [quark/]: Loading Module Zombie Villagers On Normal
-[28Jul2025 16:01:57.131] [main/INFO] [quark/]: Loading Module Spawner Replacer
-[28Jul2025 16:01:57.131] [main/INFO] [quark/]: Loading Module Overlay Shader
-[28Jul2025 16:01:57.131] [main/INFO] [quark/]: Loading Module Narrator Readout
-[28Jul2025 16:01:57.133] [main/INFO] [quark/]: Loading Module Game Nerfs
-[28Jul2025 16:01:57.133] [main/INFO] [quark/]: Loading Module Enchantments Begone
-[28Jul2025 16:01:57.133] [main/INFO] [quark/]: Loading Module Adjustable Chat
-[28Jul2025 16:01:57.133] [main/INFO] [quark/]: Loading Module Totem Of Holding
-[28Jul2025 16:01:57.133] [main/INFO] [quark/]: Loading Module Tiny Potato
-[28Jul2025 16:01:57.133] [main/INFO] [quark/]: Loading Module Pipes
-[28Jul2025 16:01:57.134] [main/INFO] [quark/]: Loading Module Matrix Enchanting
-[28Jul2025 16:01:57.134] [main/INFO] [quark/]: Loading Module Magnets
-[28Jul2025 16:01:57.134] [main/INFO] [quark/]: Loading Module Crate
-[28Jul2025 16:01:57.134] [main/INFO] [quark/]: Loading Module Backpack
-[28Jul2025 16:01:57.137] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
-[28Jul2025 16:01:57.291] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
-[28Jul2025 16:01:57.311] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
-[28Jul2025 16:01:57.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Jul2025 16:01:58.025] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished mod setup in: 328 ms
-[28Jul2025 16:01:58.068] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
-[28Jul2025 16:01:58.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.2.21 Target: 40.3.0
-[28Jul2025 16:01:58.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[28Jul2025 16:01:58.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-107 Target: null
-[28Jul2025 16:02:03.680] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Jul2025 16:02:07.550] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Server1/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/assets/.mcassetsroot' uses unexpected schema
-[28Jul2025 16:02:07.550] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Server1/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/data/.mcassetsroot' uses unexpected schema
-[28Jul2025 16:02:07.690] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 67 ms
-[28Jul2025 16:02:08.183] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.183] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 5, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.184] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.184] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.184] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.184] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.184] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.184] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.185] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.188] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 5, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 5, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.189] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.194] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.194] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.194] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.194] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.194] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.194] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.195] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.196] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.196] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.196] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 7, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.196] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 7, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 7, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 7, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 7, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 10, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.199] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.200] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.201] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.201] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.201] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.201] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.201] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.201] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.202] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.202] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.202] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.202] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.202] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.202] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.203] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.204] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 7, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.206] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 20, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 15, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.207] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 7, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.208] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 2, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.209] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.212] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.212] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 3, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:08.214] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
-[28Jul2025 16:02:08.214] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
-[28Jul2025 16:02:10.924] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[28Jul2025 16:02:10.928] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[28Jul2025 16:02:10.931] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28Jul2025 16:02:10.932] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28Jul2025 16:02:10.933] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[28Jul2025 16:02:10.936] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
-[28Jul2025 16:02:10.937] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28Jul2025 16:02:10.938] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28Jul2025 16:02:10.940] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28Jul2025 16:02:10.941] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28Jul2025 16:02:15.956] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:spiky_bomb as it's serializer returned null
-[28Jul2025 16:02:15.984] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:lead_lantern as it's serializer returned null
-[28Jul2025 16:02:15.991] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:lead_trapdoor as it's serializer returned null
-[28Jul2025 16:02:15.991] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:silver_door as it's serializer returned null
-[28Jul2025 16:02:15.992] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[28Jul2025 16:02:16.036] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[28Jul2025 16:02:16.038] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:lead_door as it's serializer returned null
-[28Jul2025 16:02:16.083] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:silver_trapdoor as it's serializer returned null
-[28Jul2025 16:02:16.089] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[28Jul2025 16:02:16.124] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:spiky_bomb_2 as it's serializer returned null
-[28Jul2025 16:02:16.126] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:silver_lantern as it's serializer returned null
-[28Jul2025 16:02:16.153] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
-[28Jul2025 16:02:17.495] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/boulder_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/shockjaw_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.498] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.498] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/thunderbottom_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/fireworm_queen_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/tidal_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/flame_whipper_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.506] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.506] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
-[28Jul2025 16:02:17.506] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.507] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.507] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.507] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.507] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.508] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.508] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.508] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.509] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.509] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.510] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/hobblegrunt_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.510] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/night_terror_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.510] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.511] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.511] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/songwing_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.511] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.512] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/devilish_dervish_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.512] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.512] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.513] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/mystery_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.513] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.513] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.514] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/strike_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.514] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.514] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.515] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
-[28Jul2025 16:02:17.515] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/prickleboggle_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
-[28Jul2025 16:02:17.515] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.515] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
-[28Jul2025 16:02:17.516] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.516] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
-[28Jul2025 16:02:17.516] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/sharp_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
-[28Jul2025 16:02:17.516] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
-[28Jul2025 16:02:17.517] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
-[28Jul2025 16:02:17.518] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
-[28Jul2025 16:02:17.675] [Worker-Main-6/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2012 recipe advancements
-[28Jul2025 16:02:17.704] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 284 advancements
-[28Jul2025 16:02:17.735] [Worker-Main-6/INFO] [net.mehvahdjukaar.selene.Selene/]: Loaded 20 Soft Fluids
-[28Jul2025 16:02:20.884] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished additional setup in 0 seconds
-[28Jul2025 16:02:21.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[28Jul2025 16:02:21.199] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Jul2025 16:02:21.200] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Jul2025 16:02:21.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Jul2025 16:02:21.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Jul2025 16:02:21.586] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Jul2025 16:02:21.765] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28Jul2025 16:02:21.767] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28Jul2025 16:02:21.768] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28Jul2025 16:02:21.769] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28Jul2025 16:02:21.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Jul2025 16:02:22.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Jul2025 16:02:24.115] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:24.141] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:24.159] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:24.177] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:24.195] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:24.692] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:25.414] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:25.693] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:26.194] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:28.322] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:28.327] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:28.333] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:28.334] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:28.693] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jul2025 16:02:29.191] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[28Jul2025 16:02:29.719] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[28Jul2025 16:02:30.203] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[28Jul2025 16:02:30.694] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[28Jul2025 16:02:31.195] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[28Jul2025 16:02:31.700] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[28Jul2025 16:02:32.193] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[28Jul2025 16:02:32.691] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[28Jul2025 16:02:33.192] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[28Jul2025 16:02:34.187] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11997 ms
-[28Jul2025 16:02:34.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.394s)! For help, type "help"
-[28Jul2025 16:02:34.248] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Jul2025 16:02:34.251] [Server thread/INFO] [net.stardustlabs.continents.Continents/]: Thanks for choosing Continents!
-[28Jul2025 16:02:42.430] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@58bcf9a8
-[28Jul2025 16:02:42.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cirasas[/127.47.96.20:50247] logged in with entity id 43 at (-1920.100599835622, 65.02442408821369, -1690.590049984793)
-[28Jul2025 16:02:42.569] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas joined the game
-[28Jul2025 16:02:42.621] [Server thread/INFO] [structurize/]: New Server UUID bb30c136-dd36-4adf-beb5-e5f485096a92
-[28Jul2025 16:02:44.700] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2299ms or 45 ticks behind
-[28Jul2025 16:05:36.706] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was slain by Hideous Zippleback
-[28Jul2025 16:05:39.935] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2d3ce4e2
-[28Jul2025 16:27:34.108] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cirasas lost connection: Disconnected
-[28Jul2025 16:27:34.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas left the game
-[28Jul2025 16:50:55.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[28Jul2025 16:50:55.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28Jul2025 16:50:55.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28Jul2025 16:50:55.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28Jul2025 16:50:56.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[28Jul2025 16:50:56.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[28Jul2025 16:50:56.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[28Jul2025 16:50:56.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[28Jul2025 16:50:56.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28Jul2025 16:50:56.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28Jul2025 16:50:56.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28Jul2025 17:53:44.056] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[28Jul2025 17:53:44.059] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.15 by Ubuntu
+[28Jul2025 17:53:44.230] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[28Jul2025 17:53:44.537] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[28Jul2025 17:53:44.539] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[28Jul2025 17:53:44.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[28Jul2025 17:53:44.542] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[28Jul2025 17:53:44.714] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[28Jul2025 17:53:46.618] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Jul2025 17:53:46.657] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Jul2025 17:53:46.776] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 53 options available, 0 override(s) found
+[28Jul2025 17:53:55.084] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+[28Jul2025 17:53:55.088] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
+[28Jul2025 17:53:55.349] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[28Jul2025 17:53:55.350] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[28Jul2025 17:53:55.350] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[28Jul2025 17:53:55.417] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[28Jul2025 17:53:55.440] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.7.
+[28Jul2025 17:53:55.938] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[28Jul2025 17:53:55.971] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[28Jul2025 17:53:55.978] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[28Jul2025 17:53:55.980] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[28Jul2025 17:53:55.985] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[28Jul2025 17:53:55.990] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[28Jul2025 17:53:55.992] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[28Jul2025 17:53:56.004] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[28Jul2025 17:53:56.017] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[28Jul2025 17:53:56.025] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[28Jul2025 17:53:56.033] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[28Jul2025 17:53:56.038] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[28Jul2025 17:53:56.040] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigDungeonModule
+[28Jul2025 17:53:56.049] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[28Jul2025 17:53:56.050] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[28Jul2025 17:53:56.050] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[28Jul2025 17:53:56.051] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[28Jul2025 17:53:56.055] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[28Jul2025 17:53:56.061] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[28Jul2025 17:53:56.065] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[28Jul2025 17:53:56.070] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[28Jul2025 17:53:56.074] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[28Jul2025 17:53:56.079] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[28Jul2025 17:53:56.080] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[28Jul2025 17:53:56.085] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[28Jul2025 17:53:56.088] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoteBlockMobSoundsModule
+[28Jul2025 17:53:56.094] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[28Jul2025 17:53:56.096] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[28Jul2025 17:53:56.097] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[28Jul2025 17:53:56.104] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[28Jul2025 17:53:56.108] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[28Jul2025 17:53:56.111] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[28Jul2025 17:53:56.124] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[28Jul2025 17:53:56.125] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[28Jul2025 17:53:56.126] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[28Jul2025 17:53:56.129] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[28Jul2025 17:53:56.131] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[28Jul2025 17:53:56.135] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[28Jul2025 17:53:56.139] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[28Jul2025 17:53:56.146] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[28Jul2025 17:53:56.146] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[28Jul2025 17:53:56.147] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[28Jul2025 17:53:56.153] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[28Jul2025 17:53:56.155] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[28Jul2025 17:53:56.170] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[28Jul2025 17:53:56.190] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[28Jul2025 17:53:56.195] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[28Jul2025 17:53:56.196] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[28Jul2025 17:53:56.198] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[28Jul2025 17:53:56.200] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.CameraModule
+[28Jul2025 17:53:56.201] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[28Jul2025 17:53:56.202] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[28Jul2025 17:53:56.204] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[28Jul2025 17:53:56.205] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[28Jul2025 17:53:56.207] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[28Jul2025 17:53:56.208] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[28Jul2025 17:53:56.210] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[28Jul2025 17:53:56.211] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[28Jul2025 17:53:56.213] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[28Jul2025 17:53:56.217] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[28Jul2025 17:53:56.218] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FrogsModule
+[28Jul2025 17:53:56.220] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[28Jul2025 17:53:56.223] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[28Jul2025 17:53:56.228] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[28Jul2025 17:53:56.230] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[28Jul2025 17:53:56.233] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[28Jul2025 17:53:56.236] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[28Jul2025 17:53:56.239] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[28Jul2025 17:53:56.240] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[28Jul2025 17:53:56.247] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[28Jul2025 17:53:56.252] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ChestsInBoatsModule
+[28Jul2025 17:53:56.261] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ZombieVillagersOnNormalModule
+[28Jul2025 17:53:56.262] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[28Jul2025 17:53:56.262] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[28Jul2025 17:53:56.269] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[28Jul2025 17:53:56.274] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[28Jul2025 17:53:56.274] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[28Jul2025 17:53:56.275] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[28Jul2025 17:53:56.282] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[28Jul2025 17:53:56.286] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[28Jul2025 17:53:56.290] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[28Jul2025 17:53:56.291] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[28Jul2025 17:53:56.297] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[28Jul2025 17:53:56.302] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[28Jul2025 17:53:56.312] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[28Jul2025 17:53:56.315] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[28Jul2025 17:53:56.316] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybind
+[28Jul2025 17:53:56.316] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[28Jul2025 17:53:56.323] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[28Jul2025 17:53:56.326] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[28Jul2025 17:53:56.340] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[28Jul2025 17:53:56.341] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[28Jul2025 17:53:56.341] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[28Jul2025 17:53:56.349] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[28Jul2025 17:53:56.377] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[28Jul2025 17:53:56.377] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[28Jul2025 17:53:56.378] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[28Jul2025 17:53:56.386] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[28Jul2025 17:53:56.390] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[28Jul2025 17:53:56.390] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[28Jul2025 17:53:56.391] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[28Jul2025 17:53:56.393] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[28Jul2025 17:53:56.400] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.OrientalPaletteModule
+[28Jul2025 17:53:56.402] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[28Jul2025 17:53:56.403] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[28Jul2025 17:53:56.405] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[28Jul2025 17:53:56.408] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[28Jul2025 17:53:56.409] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[28Jul2025 17:53:56.410] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[28Jul2025 17:53:56.413] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[28Jul2025 17:53:56.419] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[28Jul2025 17:53:56.420] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[28Jul2025 17:53:56.422] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[28Jul2025 17:53:56.429] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[28Jul2025 17:53:56.434] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[28Jul2025 17:53:56.435] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[28Jul2025 17:53:56.438] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[28Jul2025 17:53:56.441] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[28Jul2025 17:53:56.444] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[28Jul2025 17:53:56.445] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[28Jul2025 17:53:56.447] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[28Jul2025 17:53:56.451] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[28Jul2025 17:53:56.454] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[28Jul2025 17:53:56.455] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[28Jul2025 17:53:56.457] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[28Jul2025 17:53:56.462] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[28Jul2025 17:53:56.465] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[28Jul2025 17:53:56.468] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[28Jul2025 17:53:56.469] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[28Jul2025 17:53:56.472] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[28Jul2025 17:53:56.473] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[28Jul2025 17:53:56.488] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[28Jul2025 17:53:56.494] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[28Jul2025 17:53:56.550] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[28Jul2025 17:53:56.558] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[28Jul2025 17:53:56.561] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[28Jul2025 17:53:56.563] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[28Jul2025 17:53:56.566] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[28Jul2025 17:54:03.081] [main/INFO] [quark/]: Dispatching Module Step REGISTER
+[28Jul2025 17:54:04.908] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[28Jul2025 17:54:05.307] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jul2025 17:54:05.891] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jul2025 17:54:05.895] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jul2025 17:54:06.490] [main/INFO] [quark/]: Loading Module Redstone Randomizer
+[28Jul2025 17:54:06.492] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[28Jul2025 17:54:06.496] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[28Jul2025 17:54:06.497] [main/INFO] [quark/]: Loading Module Metal Buttons
+[28Jul2025 17:54:06.497] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[28Jul2025 17:54:06.501] [main/INFO] [quark/]: Loading Module Iron Rod
+[28Jul2025 17:54:06.502] [main/INFO] [quark/]: Loading Module Gravisand
+[28Jul2025 17:54:06.502] [main/INFO] [quark/]: Loading Module Feeding Trough
+[28Jul2025 17:54:06.505] [main/INFO] [quark/]: Loading Module Ender Watcher
+[28Jul2025 17:54:06.505] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[28Jul2025 17:54:06.505] [main/INFO] [quark/]: Loading Module Chute
+[28Jul2025 17:54:06.505] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[28Jul2025 17:54:06.506] [main/INFO] [quark/]: Loading Module Wooden Posts
+[28Jul2025 17:54:06.506] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[28Jul2025 17:54:06.506] [main/INFO] [quark/]: Loading Module Vertical Planks
+[28Jul2025 17:54:06.507] [main/INFO] [quark/]: Loading Module Variant Ladders
+[28Jul2025 17:54:06.507] [main/INFO] [quark/]: Loading Module Variant Furnaces
+[28Jul2025 17:54:06.507] [main/INFO] [quark/]: Loading Module Variant Chests
+[28Jul2025 17:54:06.511] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[28Jul2025 17:54:06.512] [main/INFO] [quark/]: Loading Module Thatch
+[28Jul2025 17:54:06.512] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[28Jul2025 17:54:06.512] [main/INFO] [quark/]: Loading Module Stools
+[28Jul2025 17:54:06.515] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[28Jul2025 17:54:06.515] [main/INFO] [quark/]: Loading Module Shingles
+[28Jul2025 17:54:06.516] [main/INFO] [quark/]: Loading Module Shear Vines
+[28Jul2025 17:54:06.517] [main/INFO] [quark/]: Loading Module Rope
+[28Jul2025 17:54:06.518] [main/INFO] [quark/]: Loading Module Oriental Palette
+[28Jul2025 17:54:06.518] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[28Jul2025 17:54:06.519] [main/INFO] [quark/]: Loading Module More Stone Variants
+[28Jul2025 17:54:06.519] [main/INFO] [quark/]: Loading Module More Potted Plants
+[28Jul2025 17:54:06.519] [main/INFO] [quark/]: Loading Module More Brick Types
+[28Jul2025 17:54:06.520] [main/INFO] [quark/]: Loading Module Midori
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Industrial Palette
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Hedges
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Grate
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Gold Bars
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Glass Item Frame
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Framed Glass
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[28Jul2025 17:54:06.521] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[28Jul2025 17:54:06.522] [main/INFO] [quark/]: Loading Module Quick Armor Swapping
+[28Jul2025 17:54:06.524] [main/INFO] [quark/]: Loading Module Item Sharing
+[28Jul2025 17:54:06.524] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[28Jul2025 17:54:06.524] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[28Jul2025 17:54:06.524] [main/INFO] [quark/]: Loading Module Expanded Item Interactions
+[28Jul2025 17:54:06.525] [main/INFO] [quark/]: Loading Module Easy Transfering
+[28Jul2025 17:54:06.525] [main/INFO] [quark/]: Loading Module Chests In Boats
+[28Jul2025 17:54:06.526] [main/INFO] [quark/]: Loading Module Trowel
+[28Jul2025 17:54:06.527] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[28Jul2025 17:54:06.528] [main/INFO] [quark/]: Loading Module Seed Pouch
+[28Jul2025 17:54:06.530] [main/INFO] [quark/]: Loading Module Pickarang
+[28Jul2025 17:54:06.531] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[28Jul2025 17:54:06.532] [main/INFO] [quark/]: Loading Module Parrot Eggs
+[28Jul2025 17:54:06.534] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[28Jul2025 17:54:06.535] [main/INFO] [quark/]: Loading Module Color Runes
+[28Jul2025 17:54:06.536] [main/INFO] [quark/]: Loading Module Camera
+[28Jul2025 17:54:06.537] [main/INFO] [quark/]: Loading Module Bundle Recipe
+[28Jul2025 17:54:06.537] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[28Jul2025 17:54:06.538] [main/INFO] [quark/]: Loading Module Beacon Redirection
+[28Jul2025 17:54:06.538] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[28Jul2025 17:54:06.546] [main/INFO] [quark/]: Loading Module Ambient Discs
+[28Jul2025 17:54:06.548] [main/INFO] [quark/]: Loading Module Abacus
+[28Jul2025 17:54:06.549] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[28Jul2025 17:54:06.551] [main/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[28Jul2025 17:54:06.553] [main/INFO] [quark/]: Loading Module Utility Recipes
+[28Jul2025 17:54:06.555] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[28Jul2025 17:54:06.555] [main/INFO] [quark/]: Loading Module Simple Harvest
+[28Jul2025 17:54:06.557] [main/INFO] [quark/]: Loading Module Sign Editing
+[28Jul2025 17:54:06.559] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[28Jul2025 17:54:06.560] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[28Jul2025 17:54:06.562] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[28Jul2025 17:54:06.565] [main/INFO] [quark/]: Loading Module Pig Litters
+[28Jul2025 17:54:06.566] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[28Jul2025 17:54:06.571] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[28Jul2025 17:54:06.574] [main/INFO] [quark/]: Loading Module More Banner Layers
+[28Jul2025 17:54:06.574] [main/INFO] [quark/]: Loading Module Lock Rotation
+[28Jul2025 17:54:06.581] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[28Jul2025 17:54:06.582] [main/INFO] [quark/]: Loading Module Grab Chickens
+[28Jul2025 17:54:06.583] [main/INFO] [quark/]: Loading Module Glass Shard
+[28Jul2025 17:54:06.584] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[28Jul2025 17:54:06.586] [main/INFO] [quark/]: Loading Module Emotes
+[28Jul2025 17:54:06.587] [main/INFO] [quark/]: Loading Module Dragon Scales
+[28Jul2025 17:54:06.589] [main/INFO] [quark/]: Loading Module Double Door Opening
+[28Jul2025 17:54:06.590] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[28Jul2025 17:54:06.592] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[28Jul2025 17:54:06.594] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[28Jul2025 17:54:06.597] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[28Jul2025 17:54:06.599] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[28Jul2025 17:54:06.602] [main/INFO] [quark/]: Loading Module Skull Pikes
+[28Jul2025 17:54:06.604] [main/INFO] [quark/]: Loading Module Spiral Spires
+[28Jul2025 17:54:06.608] [main/INFO] [quark/]: Loading Module Permafrost
+[28Jul2025 17:54:06.611] [main/INFO] [quark/]: Loading Module No More Lava Pockets
+[28Jul2025 17:54:06.612] [main/INFO] [quark/]: Loading Module New Stone Types
+[28Jul2025 17:54:06.613] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[28Jul2025 17:54:06.614] [main/INFO] [quark/]: Loading Module Monster Box
+[28Jul2025 17:54:06.617] [main/INFO] [quark/]: Loading Module Glimmering Weald
+[28Jul2025 17:54:06.617] [main/INFO] [quark/]: Loading Module Fairy Rings
+[28Jul2025 17:54:06.618] [main/INFO] [quark/]: Loading Module Corundum
+[28Jul2025 17:54:06.620] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[28Jul2025 17:54:06.620] [main/INFO] [quark/]: Loading Module Blossom Trees
+[28Jul2025 17:54:06.620] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[28Jul2025 17:54:06.621] [main/INFO] [quark/]: Loading Module Big Dungeon
+[28Jul2025 17:54:06.622] [main/INFO] [quark/]: Loading Module Azalea Wood
+[28Jul2025 17:54:06.622] [main/INFO] [quark/]: Loading Module Wraith
+[28Jul2025 17:54:06.623] [main/INFO] [quark/]: Loading Module Toretoise
+[28Jul2025 17:54:06.625] [main/INFO] [quark/]: Loading Module Stonelings
+[28Jul2025 17:54:06.627] [main/INFO] [quark/]: Loading Module Shiba
+[28Jul2025 17:54:06.628] [main/INFO] [quark/]: Loading Module Frogs
+[28Jul2025 17:54:06.630] [main/INFO] [quark/]: Loading Module Foxhound
+[28Jul2025 17:54:06.634] [main/INFO] [quark/]: Loading Module Forgotten
+[28Jul2025 17:54:06.637] [main/INFO] [quark/]: Loading Module Crabs
+[28Jul2025 17:54:06.639] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[28Jul2025 17:54:06.640] [main/INFO] [quark/]: Loading Module Uses For Curses
+[28Jul2025 17:54:06.641] [main/INFO] [quark/]: Loading Module Usage Ticker
+[28Jul2025 17:54:06.641] [main/INFO] [quark/]: Loading Module Soul Candles
+[28Jul2025 17:54:06.642] [main/INFO] [quark/]: Loading Module Microcrafting Helper
+[28Jul2025 17:54:06.642] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[28Jul2025 17:54:06.643] [main/INFO] [quark/]: Loading Module Greener Grass
+[28Jul2025 17:54:06.643] [main/INFO] [quark/]: Loading Module Chest Searching
+[28Jul2025 17:54:06.643] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[28Jul2025 17:54:06.643] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[28Jul2025 17:54:06.644] [main/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[28Jul2025 17:54:06.644] [main/INFO] [quark/]: Loading Module Spawner Replacer
+[28Jul2025 17:54:06.644] [main/INFO] [quark/]: Loading Module Overlay Shader
+[28Jul2025 17:54:06.644] [main/INFO] [quark/]: Loading Module Narrator Readout
+[28Jul2025 17:54:06.644] [main/INFO] [quark/]: Loading Module Game Nerfs
+[28Jul2025 17:54:06.645] [main/INFO] [quark/]: Loading Module Enchantments Begone
+[28Jul2025 17:54:06.646] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[28Jul2025 17:54:06.647] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[28Jul2025 17:54:06.647] [main/INFO] [quark/]: Loading Module Tiny Potato
+[28Jul2025 17:54:06.648] [main/INFO] [quark/]: Loading Module Pipes
+[28Jul2025 17:54:06.648] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[28Jul2025 17:54:06.649] [main/INFO] [quark/]: Loading Module Magnets
+[28Jul2025 17:54:06.650] [main/INFO] [quark/]: Loading Module Crate
+[28Jul2025 17:54:06.651] [main/INFO] [quark/]: Loading Module Backpack
+[28Jul2025 17:54:06.652] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[28Jul2025 17:54:06.820] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[28Jul2025 17:54:06.843] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
+[28Jul2025 17:54:07.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Jul2025 17:54:07.348] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished mod setup in: 205 ms
+[28Jul2025 17:54:07.408] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[28Jul2025 17:54:08.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.2.21 Target: 40.3.0
+[28Jul2025 17:54:08.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[28Jul2025 17:54:08.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-107 Target: null
+[28Jul2025 17:54:12.851] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Jul2025 17:54:16.075] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Server1/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/assets/.mcassetsroot' uses unexpected schema
+[28Jul2025 17:54:16.079] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Server1/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/data/.mcassetsroot' uses unexpected schema
+[28Jul2025 17:54:16.287] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 100 ms
+[28Jul2025 17:54:17.419] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.421] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 5, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.421] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.423] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.424] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.424] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.425] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.426] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.427] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.428] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.429] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.430] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.432] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.432] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.432] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.433] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.434] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.434] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.434] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 5, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.434] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.434] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.435] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 5, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.435] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.436] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.437] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.437] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.438] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.438] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.439] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.440] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.441] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.442] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.444] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.445] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.446] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.446] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.447] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.447] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.448] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.450] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.450] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 7, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.450] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.451] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 7, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.452] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 7, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.453] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 7, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.454] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 7, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.459] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.459] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.460] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.460] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 10, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.460] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.460] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.460] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.460] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.461] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.462] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.462] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.463] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.463] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.464] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.465] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.466] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.467] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.469] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.470] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.471] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.471] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.472] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.473] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.474] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.476] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.476] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.477] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.477] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.478] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.478] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:stinger with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.479] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.480] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.480] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.481] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.482] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.482] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.483] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.484] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.486] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.487] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.488] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.488] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.488] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.489] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.489] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 7, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.489] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.490] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.490] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.491] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 3, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.493] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 20, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.493] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.494] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 15, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.496] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 10, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.496] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 1, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.496] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.497] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:triple_stryke with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.497] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:zippleback with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.498] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:terrible_terror with weight of 7, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 7, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 5, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:light_fury with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.499] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:gronckle with weight of 10, minimum pack size of 2, and maximum pack size of 3
+[28Jul2025 17:54:17.500] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.501] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:night_fury with weight of 2, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.501] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.501] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.501] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:skrill with weight of 3, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:17.501] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:deadly_nadder with weight of 10, minimum pack size of 1, and maximum pack size of 2
+[28Jul2025 17:54:17.501] [main/INFO] [com.iobaddons.iobaddons.IoBAddons/]: Loaded spawn set for dragon isleofberk:monstrous_nightmare with weight of 5, minimum pack size of 1, and maximum pack size of 1
+[28Jul2025 17:54:20.092] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Jul2025 17:54:20.093] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Jul2025 17:54:20.103] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jul2025 17:54:20.104] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jul2025 17:54:20.105] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Jul2025 17:54:20.111] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[28Jul2025 17:54:20.116] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jul2025 17:54:20.117] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jul2025 17:54:20.121] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jul2025 17:54:20.122] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jul2025 17:54:25.765] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:spiky_bomb as it's serializer returned null
+[28Jul2025 17:54:25.795] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:lead_lantern as it's serializer returned null
+[28Jul2025 17:54:25.804] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:lead_trapdoor as it's serializer returned null
+[28Jul2025 17:54:25.805] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:silver_door as it's serializer returned null
+[28Jul2025 17:54:25.805] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[28Jul2025 17:54:25.836] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[28Jul2025 17:54:25.840] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:lead_door as it's serializer returned null
+[28Jul2025 17:54:25.896] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:silver_trapdoor as it's serializer returned null
+[28Jul2025 17:54:26.029] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[28Jul2025 17:54:26.057] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:spiky_bomb_2 as it's serializer returned null
+[28Jul2025 17:54:26.061] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:silver_lantern as it's serializer returned null
+[28Jul2025 17:54:26.081] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[28Jul2025 17:54:27.494] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/boulder_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.494] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/shockjaw_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.495] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.495] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.495] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.495] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.495] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/thunderbottom_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/fireworm_queen_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.496] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/tidal_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/flame_whipper_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.497] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.498] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.498] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.498] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[2]->{archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.499] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/fireworm_queen}.pools[0].entries[0]: Unknown loot table called additions:stego_fireworm_queen
+[28Jul2025 17:54:27.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.500] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/hobblegrunt_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.501] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/night_terror_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/songwing_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/devilish_dervish_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.502] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t4}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/mystery_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.503] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/strike_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/stoker_egg_crate}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[5]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[7]->{archipelagoadditions:eggs/songwing}.pools[0].entries[0]: Unknown loot table called additions:stego_songwing
+[28Jul2025 17:54:27.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/prickleboggle_egg_crate}.pools[2].entries[0]->{archipelagoadditions:eggs/prickleboggle}.pools[0].entries[0]: Unknown loot table called additions:stego_prickleboggle
+[28Jul2025 17:54:27.504] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[8]->{archipelagoadditions:eggs/thunderbottom}.pools[0].entries[0]: Unknown loot table called additions:stego_thunderbottom
+[28Jul2025 17:54:27.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[0]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:stegos_dragons}.pools[0].entries[4]->{archipelagoadditions:eggs/night_terror}.pools[0].entries[0]: Unknown loot table called additions:stego_night_terror
+[28Jul2025 17:54:27.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:blocks/sharp_egg_crate}.pools[0].entries[1]->{archipelagoadditions:eggs/devilish_dervish}.pools[0].entries[0]: Unknown loot table called additions:stego_devilish_dervish
+[28Jul2025 17:54:27.505] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[1]->{archipelagoadditions:eggs/flame_whipper}.pools[0].entries[0]: Unknown loot table called additions:stego_flame_whipper
+[28Jul2025 17:54:27.506] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:chests/dragon_hunter_loot_t3}.pools[1].entries[0]->{archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[6]->{archipelagoadditions:eggs/shockjaw}.pools[0].entries[0]: Unknown loot table called additions:stego_shockjaw
+[28Jul2025 17:54:27.506] [Worker-Main-6/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {archipelagoadditions:all_dragons_and_stegos}.pools[0].entries[6]->{archipelagoadditions:stegos_dragons}.pools[0].entries[3]->{archipelagoadditions:eggs/hobblegrunt}.pools[0].entries[0]: Unknown loot table called additions:stego_hobblegrunt
+[28Jul2025 17:54:27.642] [Worker-Main-6/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2012 recipe advancements
+[28Jul2025 17:54:27.675] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 284 advancements
+[28Jul2025 17:54:27.710] [Worker-Main-6/INFO] [net.mehvahdjukaar.selene.Selene/]: Loaded 20 Soft Fluids
+[28Jul2025 17:54:30.796] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished additional setup in 0 seconds
+[28Jul2025 17:54:31.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[28Jul2025 17:54:31.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Jul2025 17:54:31.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Jul2025 17:54:31.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Jul2025 17:54:31.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Jul2025 17:54:31.612] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Jul2025 17:54:31.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Jul2025 17:54:31.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Jul2025 17:54:31.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Jul2025 17:54:31.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Jul2025 17:54:31.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Jul2025 17:54:32.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Jul2025 17:54:34.486] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:34.523] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:34.541] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:34.560] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:34.575] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:34.924] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:35.492] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:35.751] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:36.247] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:36.746] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:37.756] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:37.759] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:38.251] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:38.817] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:39.246] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:39.747] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jul2025 17:54:40.252] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[28Jul2025 17:54:41.098] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[28Jul2025 17:54:41.248] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[28Jul2025 17:54:41.748] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[28Jul2025 17:54:42.246] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[28Jul2025 17:54:42.749] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[28Jul2025 17:54:43.246] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[28Jul2025 17:54:43.752] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[28Jul2025 17:54:44.248] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[28Jul2025 17:54:44.748] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[28Jul2025 17:54:45.247] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[28Jul2025 17:54:45.915] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 13667 ms
+[28Jul2025 17:54:45.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.100s)! For help, type "help"
+[28Jul2025 17:54:46.067] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Jul2025 17:54:46.068] [Server thread/INFO] [net.stardustlabs.continents.Continents/]: Thanks for choosing Continents!
+[28Jul2025 17:54:52.764] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6b010861
+[28Jul2025 17:54:52.829] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cirasas[/127.47.96.20:38567] logged in with entity id 44 at (-1906.2658849935433, 66.0, -1113.9698146705)
+[28Jul2025 17:54:52.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas joined the game
+[28Jul2025 17:54:52.998] [Server thread/INFO] [structurize/]: New Server UUID 6a6360fa-d7df-4a55-b1a2-a2ee7095b6a5
+[28Jul2025 17:54:56.578] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3856ms or 77 ticks behind
+[28Jul2025 17:54:56.878] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4ac9fdec
+[28Jul2025 17:55:02.752] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:45023] logged in with entity id 193 at (-1942.772293304493, 64.0, -1121.1215644387146)
+[28Jul2025 17:55:02.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg joined the game
+[28Jul2025 17:55:22.380] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[28Jul2025 17:56:30.181] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[28Jul2025 17:56:30.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
+[28Jul2025 18:02:48.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas tried to swim in lava
