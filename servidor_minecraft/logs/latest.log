@@ -613,3 +613,15 @@
 [28Jul2025 19:14:24.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Night Fury (vehicle of Kreeex) moved wrongly! 0.2870633236084359
 [28Jul2025 19:14:44.784] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Not Today, Thank You]
 [28Jul2025 19:14:46.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Voluntary Exile]
+[28Jul2025 19:17:48.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Stone Age]
+[28Jul2025 19:20:11.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Strong enough to shatter Dragon Scale]
+[28Jul2025 19:20:35.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex has completed the challenge [Hero of the Village]
+[28Jul2025 19:20:35.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has completed the challenge [Hero of the Village]
+[28Jul2025 19:20:39.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Huevito> sape
+[28Jul2025 19:22:15.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Getting an Upgrade]
+[28Jul2025 19:23:41.882] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito has made the advancement [Cover Me with Diamonds]
+[28Jul2025 19:24:08.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas was burnt to a crisp whilst fighting Kreeex
+[28Jul2025 19:24:12.483] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Kreeex> xd
+[28Jul2025 19:24:51.581] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Huevito lost connection: Disconnected
+[28Jul2025 19:24:51.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Huevito left the game
+[28Jul2025 19:25:12.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Kreeex has made the advancement [Cover Me with Diamonds]

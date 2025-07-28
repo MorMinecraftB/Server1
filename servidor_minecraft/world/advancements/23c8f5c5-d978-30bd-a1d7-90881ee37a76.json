@@ -134,6 +134,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-07-28 19:20:35 +0000"
+    },
+    "done": true
+  },
   "archipelagoadditions:archipelagoadditions/hofferson_axe": {
     "criteria": {
       "hofferson": "2025-07-26 16:29:54 +0000"
@@ -211,6 +217,7 @@
       "minecraft:pillager": "2025-07-25 04:33:01 +0000",
       "minecraft:blaze": "2025-07-26 23:32:39 +0000",
       "minecraft:skeleton": "2025-07-25 03:32:13 +0000",
+      "minecraft:ravager": "2025-07-28 19:20:28 +0000",
       "minecraft:vindicator": "2025-07-26 03:16:35 +0000",
       "minecraft:spider": "2025-07-25 22:20:20 +0000",
       "minecraft:evoker": "2025-07-25 21:21:36 +0000",
