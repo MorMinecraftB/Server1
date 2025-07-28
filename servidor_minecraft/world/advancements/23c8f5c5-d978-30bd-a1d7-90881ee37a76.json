@@ -158,6 +158,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-07-28 21:41:30 +0000"
+    },
+    "done": true
+  },
   "isleofberk:light_fury": {
     "criteria": {
       "requirements": "2025-07-25 04:26:14 +0000"
