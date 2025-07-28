@@ -566,3 +566,32 @@
 [28Jul2025 15:40:45.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg joined the game
 [28Jul2025 15:40:46.003] [Server thread/INFO] [structurize/]: New Server UUID 77ab6a26-0212-4df7-98d2-6bade8ecf155
 [28Jul2025 15:40:49.792] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3858ms or 77 ticks behind
+[28Jul2025 15:47:17.142] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@224411eb
+[28Jul2025 15:47:17.158] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cirasas[/127.47.96.20:48537] logged in with entity id 1170 at (-1909.7777960107985, 66.0, -1117.1610841848074)
+[28Jul2025 15:47:17.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas joined the game
+[28Jul2025 15:47:41.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Cirasas> ds?
+[28Jul2025 15:47:51.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Morangg> en un rato
+[28Jul2025 15:47:56.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Morangg> bancame
+[28Jul2025 15:47:58.446] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[28Jul2025 15:47:58.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
+[28Jul2025 15:50:37.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas fell from a high place
+[28Jul2025 15:58:20.397] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4f4d358
+[28Jul2025 15:58:20.409] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:51501] logged in with entity id 4638 at (-1942.772293304493, 64.0, -1121.1215644387146)
+[28Jul2025 15:58:20.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg joined the game
+[28Jul2025 15:58:22.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[28Jul2025 15:58:35.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Morangg> bancame un segundo q apagom y vuelvo a prender
+[28Jul2025 15:58:38.046] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[28Jul2025 15:58:38.046] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg left the game
+[28Jul2025 15:58:48.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[28Jul2025 15:58:48.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Jul2025 15:58:48.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Jul2025 15:58:48.803] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cirasas lost connection: Server closed
+[28Jul2025 15:58:48.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas left the game
+[28Jul2025 15:58:48.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Jul2025 15:58:50.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Jul2025 15:58:50.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Jul2025 15:58:50.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Jul2025 15:58:50.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Jul2025 15:58:50.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Jul2025 15:58:50.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Jul2025 15:58:50.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
