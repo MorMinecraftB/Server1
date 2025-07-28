@@ -571,3 +571,28 @@
 [28Jul2025 19:35:53.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Huevito> a le decis fea a tu vieja
 [28Jul2025 19:35:55.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Huevito> mal ahi
 [28Jul2025 19:36:02.476] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Morangg> diablo.
+[28Jul2025 20:04:01.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Huevito> 8=============D
+[28Jul2025 20:09:02.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 1.185929223219091
+[28Jul2025 20:09:03.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 1.4814165627403781
+[28Jul2025 20:09:03.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 2.163645906907732
+[28Jul2025 20:09:29.261] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@34c0420c
+[28Jul2025 20:09:29.272] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cirasas[/127.47.96.20:59639] logged in with entity id 8945 at (-1957.0580471919309, 69.0, -1104.666590570812)
+[28Jul2025 20:09:29.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Cirasas joined the game
+[28Jul2025 20:10:21.364] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg was blown up by Cirasas
+[28Jul2025 20:11:27.158] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cirasas: Set own game mode to Creative Mode]
+[28Jul2025 20:12:08.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Cirasas: Set own game mode to Survival Mode]
+[28Jul2025 20:13:43.454] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg was burnt to a crisp whilst fighting Deadly Nadder
+[28Jul2025 20:17:20.473] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2227ms or 44 ticks behind
+[28Jul2025 20:18:39.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved wrongly! 0.38958605394039436
+[28Jul2025 20:18:40.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved wrongly! 1.3916643916530154
+[28Jul2025 20:18:40.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved wrongly! 2.0688362650717522
+[28Jul2025 20:18:40.144] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved wrongly! 2.513743516911742
+[28Jul2025 20:18:40.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved wrongly! 0.2818735941120849
+[28Jul2025 20:18:54.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 0.7967827367021982
+[28Jul2025 20:18:54.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 1.94380394923337
+[28Jul2025 20:18:54.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 0.6869634100735311
+[28Jul2025 20:18:54.952] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Morangg) moved wrongly! 1.213398598954882
+[28Jul2025 20:19:17.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Morangg fell from a high place
+[28Jul2025 20:19:22.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved too quickly! -10.16238497997415,-0.8848038338917661,2.0895682437494543
+[28Jul2025 20:19:22.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved too quickly! -11.633009475516246,-1.0632012026106565,2.2767765502007933
+[28Jul2025 20:19:22.889] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of Huevito) moved too quickly! -13.1069098421342,-1.2530852830182653,2.444647542206667
