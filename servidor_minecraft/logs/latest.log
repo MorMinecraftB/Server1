@@ -517,3 +517,33 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [05Aug2025 16:48:20.428] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 65.9437308882651, -112.846719333902] -> [-64.1540771573782, 67.74373084058138, 1.2290065650000006E7] returning empty list! this might break things
 [05Aug2025 16:48:25.429] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 65.0000883332333, -117.91998344287276] -> [-64.13068049773574, 67.30000001192093, 1.2290065650000006E7] returning empty list! this might break things
 [05Aug2025 16:49:39.780] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 65.0002068602345, -118.1533874720335] -> [-64.12919227033854, 67.30000001192093, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:03:33.580] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 67.0, -118.15325798280537] -> [-64.12919372692704, 72.72984351325387, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:03:38.581] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 67.0, -121.6943189278245] -> [-64.10738303884864, 69.96023154788665, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:03:43.631] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 67.0, -124.3798620904219] -> [-66.80498095810405, 69.95585135476924, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:03:48.683] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 67.0, -122.85465549863875] -> [-68.21947956457734, 69.86038730340258, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:03:53.731] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 67.0, -115.67200932949494] -> [-69.4378757088583, 68.99814405925471, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:03:58.781] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 65.34755874435524, -116.02314384281635] -> [-69.39716183394194, 67.30000001192093, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:04:03.830] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8645362650000006E7, 66.1744993224175, -118.55414111539721] -> [-69.45141057670116, 67.97449927473379, 1.2290065650000006E7] returning empty list! this might break things
+[05Aug2025 17:04:09.288] [Server thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Received physics frame update for ship with ShipId: 36, but a ship with this ShipId does not exist!
+[05Aug2025 17:04:25.383] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Disconnected
+[05Aug2025 17:04:25.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[05Aug2025 17:04:35.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[05Aug2025 17:04:35.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Aug2025 17:04:35.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Aug2025 17:04:35.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Aug2025 17:04:35.524] [Physics thread/INFO] [Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
+[05Aug2025 17:04:35.525] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap/]: Physics pipeline ending
+[05Aug2025 17:04:35.565] [DefaultDispatcher-worker-4/INFO] [Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
+[05Aug2025 17:04:36.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:overworld
+[05Aug2025 17:04:47.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:cretaceous
+[05Aug2025 17:04:47.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:jurassic
+[05Aug2025 17:04:47.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:triassic
+[05Aug2025 17:04:47.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_nether
+[05Aug2025 17:04:47.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_end
+[05Aug2025 17:04:47.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05Aug2025 17:04:47.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cretaceous): All chunks are saved
+[05Aug2025 17:04:47.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jurassic): All chunks are saved
+[05Aug2025 17:04:47.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (triassic): All chunks are saved
+[05Aug2025 17:04:47.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Aug2025 17:04:47.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Aug2025 17:04:47.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
