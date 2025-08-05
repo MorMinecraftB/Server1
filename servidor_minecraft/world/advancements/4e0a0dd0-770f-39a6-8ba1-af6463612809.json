@@ -90,6 +90,12 @@
     },
     "done": true
   },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-08-05 03:09:48 +0000"
+    },
+    "done": true
+  },
   "morevillagers:all_villages": {
     "criteria": {
       "savanna": "2025-08-05 01:48:42 +0000"
@@ -138,12 +144,26 @@
     },
     "done": false
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-08-05 03:09:48 +0000"
+    },
+    "done": true
+  },
   "morevillagers:all_workstations_get": {
     "criteria": {
       "blueprinttable": "2025-08-05 01:52:20 +0000",
       "oceanographytable": "2025-08-05 01:51:10 +0000",
+      "fletchingtable": "2025-08-05 03:09:21 +0000",
       "lectern": "2025-08-05 01:52:08 +0000",
-      "woodworkingtable": "2025-08-05 01:51:58 +0000"
+      "woodworkingtable": "2025-08-05 01:51:58 +0000",
+      "composter": "2025-08-05 03:03:28 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:all_professions_traded": {
+    "criteria": {
+      "fletcher": "2025-08-05 03:09:48 +0000"
     },
     "done": false
   },

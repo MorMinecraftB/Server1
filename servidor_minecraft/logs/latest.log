@@ -433,3 +433,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [05Aug2025 02:44:43.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Morangg: Gamerule mobGriefing is now set to: false]
 [05Aug2025 02:44:58.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Morangg: Gamerule playersSleepingPercentage is now set to: 1]
 [05Aug2025 02:45:07.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Morangg no longer a server operator
+[05Aug2025 03:09:48.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [What a Deal!]
+[05Aug2025 03:09:48.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [First Trade]
+[05Aug2025 03:11:24.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-105, y=64, z=-133} BlockPos{x=-105, y=62, z=-132}
+[05Aug2025 03:22:28.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [The Parrots and the Bats]
