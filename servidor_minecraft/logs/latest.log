@@ -417,3 +417,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [05Aug2025 14:15:20.672] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:42417] logged in with entity id 217 at (-65.54388010040034, 65.5625, -128.22055451537491)
 [05Aug2025 14:15:20.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
 [05Aug2025 14:33:14.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [The Andesite Age]
+[05Aug2025 14:46:09.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg was slain by Iron Golem
+[05Aug2025 14:46:29.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg was slain by Iron Golem

@@ -238,8 +238,10 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
+      "toolsmith": "2025-08-05 14:53:15 +0000",
       "fletcher": "2025-08-05 03:09:48 +0000",
       "woodworker": "2025-08-05 03:40:31 +0000",
+      "librarian": "2025-08-05 14:56:39 +0000",
       "farmer": "2025-08-05 03:37:42 +0000"
     },
     "done": false
@@ -282,9 +284,21 @@
     },
     "done": true
   },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2025-08-05 14:41:54 +0000"
+    },
+    "done": true
+  },
   "create:andesite_alloy": {
     "criteria": {
       "0": "2025-08-05 14:32:51 +0000"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2025-08-05 14:42:58 +0000"
     },
     "done": true
   },
