@@ -73,6 +73,7 @@
       "minecraft:jungle": "2025-08-04 23:48:59 +0000",
       "minecraft:ocean": "2025-08-05 00:01:33 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-08-04 23:51:13 +0000",
+      "minecraft:old_growth_birch_forest": "2025-08-05 15:33:19 +0000",
       "minecraft:savanna": "2025-08-05 01:48:41 +0000",
       "minecraft:plains": "2025-08-04 23:58:30 +0000"
     },
@@ -124,8 +125,10 @@
       "oceanographytable": "2025-08-05 01:51:10 +0000",
       "fletchingtable": "2025-08-05 03:09:21 +0000",
       "smithingtable": "2025-08-05 14:22:26 +0000",
+      "blastfurnace": "2025-08-05 15:48:45 +0000",
       "lectern": "2025-08-05 01:52:08 +0000",
       "woodworkingtable": "2025-08-05 01:51:58 +0000",
+      "stonecutter": "2025-08-05 15:51:10 +0000",
       "composter": "2025-08-05 03:03:28 +0000"
     },
     "done": false
@@ -242,6 +245,8 @@
       "fletcher": "2025-08-05 03:09:48 +0000",
       "woodworker": "2025-08-05 03:40:31 +0000",
       "librarian": "2025-08-05 14:56:39 +0000",
+      "mason": "2025-08-05 15:51:29 +0000",
+      "armorer": "2025-08-05 15:49:39 +0000",
       "farmer": "2025-08-05 03:37:42 +0000"
     },
     "done": false
@@ -278,6 +283,30 @@
     },
     "done": true
   },
+  "create:hand_crank_000": {
+    "criteria": {
+      "0": "2025-08-05 15:39:57 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2025-08-05 15:39:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-08-05 15:50:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2025-08-05 15:49:40 +0000"
+    },
+    "done": true
+  },
   "create:andesite_casing": {
     "criteria": {
       "0": "2025-08-05 14:33:14 +0000"
@@ -290,6 +319,18 @@
     },
     "done": true
   },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2025-08-05 15:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-08-05 15:42:48 +0000"
+    },
+    "done": true
+  },
   "create:andesite_alloy": {
     "criteria": {
       "0": "2025-08-05 14:32:51 +0000"
@@ -299,6 +340,12 @@
   "create:water_wheel": {
     "criteria": {
       "0": "2025-08-05 14:42:58 +0000"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-08-05 15:46:00 +0000"
     },
     "done": true
   },

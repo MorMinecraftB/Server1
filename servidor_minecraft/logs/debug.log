@@ -7995,3 +7995,32 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [05Aug2025 15:05:03.829] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [05Aug2025 15:10:03.808] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [05Aug2025 15:10:03.821] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:15:03.808] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:15:03.822] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:20:03.808] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:20:03.821] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:25:03.806] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:25:03.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:30:03.806] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:30:03.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:35:03.813] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:35:03.830] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:39:25.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Bonk!]
+[05Aug2025 15:39:57.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has reached the goal [Workout Session]
+[05Aug2025 15:40:03.809] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:40:03.824] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:41:56.832] [Server thread/DEBUG] [mixin/]: Mixing foundation.copycat.multistate.AirCurrentMixin from copycats-common.mixins.json into com.simibubi.create.content.kinetics.fan.AirCurrent
+[05Aug2025 15:41:56.833] [Server thread/DEBUG] [mixin/]: Mixing mod_compat.create.MixinAirCurrent from valkyrienskies-common.mixins.json into com.simibubi.create.content.kinetics.fan.AirCurrent
+[05Aug2025 15:45:01.382] [Server thread/DEBUG] [mixin/]: Mixing mod_compat.create.MixinBeltMovementHandler from valkyrienskies-common.mixins.json into com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler
+[05Aug2025 15:45:03.807] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:45:03.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:49:40.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Suit Up]
+[05Aug2025 15:50:03.806] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:50:03.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 15:50:46.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Cover Me with Diamonds]
+[05Aug2025 15:55:03.809] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 15:55:03.821] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 16:00:03.808] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 16:00:03.822] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 16:05:03.804] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 16:05:03.816] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
