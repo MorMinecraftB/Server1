@@ -58,6 +58,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-08-05 00:17:05 +0000",
       "minecraft:birch_forest": "2025-08-04 23:56:10 +0000",
       "minecraft:bamboo_jungle": "2025-08-04 23:41:44 +0000",
       "minecraft:beach": "2025-08-04 23:50:43 +0000",
@@ -66,6 +67,7 @@
       "minecraft:lukewarm_ocean": "2025-08-04 23:50:49 +0000",
       "minecraft:river": "2025-08-04 23:48:52 +0000",
       "minecraft:stony_shore": "2025-08-05 00:07:03 +0000",
+      "minecraft:cold_ocean": "2025-08-05 00:31:43 +0000",
       "minecraft:forest": "2025-08-04 23:56:39 +0000",
       "minecraft:jungle": "2025-08-04 23:48:59 +0000",
       "minecraft:ocean": "2025-08-05 00:01:33 +0000",
