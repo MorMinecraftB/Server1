@@ -8024,3 +8024,33 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [05Aug2025 03:19:28.071] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
 [05Aug2025 03:19:28.085] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
 [05Aug2025 03:22:28.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [The Parrots and the Bats]
+[05Aug2025 03:24:28.073] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:24:28.088] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:29:28.071] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:29:28.085] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:34:07.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Hot Stuff]
+[05Aug2025 03:34:28.078] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:34:28.092] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:37:16.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [A Seedy Place]
+[05Aug2025 03:39:28.072] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:39:28.087] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:44:28.072] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:44:28.085] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:46:11.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Morangg a server operator
+[05Aug2025 03:46:25.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Morangg: Gamerule mobGriefing is now set to: true]
+[05Aug2025 03:46:32.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Morangg: Made Morangg no longer a server operator]
+[05Aug2025 03:49:28.075] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:49:28.088] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:54:28.071] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:54:28.084] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 03:59:28.070] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 03:59:28.083] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 04:04:28.073] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 04:04:28.086] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 04:08:22.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Ace Trainer]
+[05Aug2025 04:09:28.071] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 04:09:28.084] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3
+[05Aug2025 04:12:49.345] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/40556, l='ServerLevel[Mundo nuevo def3]', x=-99.81, y=60.56, z=-131.37] died, message: 'Villager burned to death'
+[05Aug2025 04:12:50.792] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/40430, l='ServerLevel[Mundo nuevo def3]', x=-99.23, y=60.00, z=-129.51] died, message: 'Villager tried to swim in lava'
+[05Aug2025 04:14:28.079] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo def3
+[05Aug2025 04:14:28.092] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo def3

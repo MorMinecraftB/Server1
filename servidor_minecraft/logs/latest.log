@@ -437,3 +437,11 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [05Aug2025 03:09:48.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [First Trade]
 [05Aug2025 03:11:24.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-105, y=64, z=-133} BlockPos{x=-105, y=62, z=-132}
 [05Aug2025 03:22:28.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [The Parrots and the Bats]
+[05Aug2025 03:34:07.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Hot Stuff]
+[05Aug2025 03:37:16.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [A Seedy Place]
+[05Aug2025 03:46:11.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Morangg a server operator
+[05Aug2025 03:46:25.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Morangg: Gamerule mobGriefing is now set to: true]
+[05Aug2025 03:46:32.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Morangg: Made Morangg no longer a server operator]
+[05Aug2025 04:08:22.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg has made the advancement [Ace Trainer]
+[05Aug2025 04:12:49.345] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/40556, l='ServerLevel[Mundo nuevo def3]', x=-99.81, y=60.56, z=-131.37] died, message: 'Villager burned to death'
+[05Aug2025 04:12:50.792] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/40430, l='ServerLevel[Mundo nuevo def3]', x=-99.23, y=60.00, z=-129.51] died, message: 'Villager tried to swim in lava'

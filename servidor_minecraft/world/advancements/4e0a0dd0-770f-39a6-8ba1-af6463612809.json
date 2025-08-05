@@ -105,8 +105,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2025-08-05 02:12:16 +0000",
+      "pumpkin_pie": "2025-08-05 04:04:48 +0000",
       "bread": "2025-08-05 01:50:31 +0000",
       "melon_slice": "2025-08-05 01:56:21 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-08-05 03:57:56 +0000",
+      "minecraft:sheep": "2025-08-05 03:54:31 +0000",
+      "minecraft:chicken": "2025-08-05 03:22:28 +0000"
     },
     "done": false
   },
@@ -119,6 +128,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-08-05 01:48:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-08-05 03:34:07 +0000"
     },
     "done": true
   },
@@ -163,7 +178,9 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
-      "fletcher": "2025-08-05 03:09:48 +0000"
+      "fletcher": "2025-08-05 03:09:48 +0000",
+      "woodworker": "2025-08-05 03:40:31 +0000",
+      "farmer": "2025-08-05 03:37:42 +0000"
     },
     "done": false
   },
@@ -197,6 +214,12 @@
     },
     "done": true
   },
+  "morevillagers:master_trade": {
+    "criteria": {
+      "villagertrade": "2025-08-05 04:08:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-08-05 02:17:33 +0000"
@@ -224,6 +247,18 @@
   "jurassic_additions:digging_dinosaurs": {
     "criteria": {
       "digging_dinosaurs_0": "2025-08-05 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-08-05 03:37:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-08-05 03:22:28 +0000"
     },
     "done": true
   },
