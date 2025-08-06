@@ -424,3 +424,29 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 [06Aug2025 01:36:04.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
 [06Aug2025 01:36:29.845] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:40169] logged in with entity id 1878 at (-101.4665625431705, 65.875, -116.50321705277092)
 [06Aug2025 01:36:29.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[06Aug2025 01:37:30.032] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Timed out
+[06Aug2025 01:37:30.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[06Aug2025 01:38:18.391] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Morangg[/127.157.203.231:53775] logged in with entity id 2326 at (-98.758332189587, 70.0, -94.86333787835189)
+[06Aug2025 01:38:18.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg joined the game
+[06Aug2025 01:38:48.482] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Morangg lost connection: Timed out
+[06Aug2025 01:38:48.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Morangg left the game
+[06Aug2025 01:40:30.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[06Aug2025 01:40:30.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Aug2025 01:40:30.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Aug2025 01:40:30.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Aug2025 01:40:30.089] [Physics thread/INFO] [Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
+[06Aug2025 01:40:30.090] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap/]: Physics pipeline ending
+[06Aug2025 01:40:30.143] [DefaultDispatcher-worker-2/INFO] [Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
+[06Aug2025 01:40:30.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:overworld
+[06Aug2025 01:40:30.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_end
+[06Aug2025 01:40:30.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:cretaceous
+[06Aug2025 01:40:30.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:jurassic
+[06Aug2025 01:40:30.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/minecraft:the_nether
+[06Aug2025 01:40:30.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo def3]'/prehistoricfauna:triassic
+[06Aug2025 01:40:30.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06Aug2025 01:40:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Aug2025 01:40:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cretaceous): All chunks are saved
+[06Aug2025 01:40:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jurassic): All chunks are saved
+[06Aug2025 01:40:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Aug2025 01:40:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (triassic): All chunks are saved
+[06Aug2025 01:40:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
